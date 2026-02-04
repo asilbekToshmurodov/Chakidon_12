@@ -1,1 +1,6 @@
+#!/usr/bin/env python3
+"""Convenience wrapper to run the cleaning bot module."""
+from cleaning_bot import main
 
+if __name__ == "__main__":
+    raise SystemExit(main())
